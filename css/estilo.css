@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6{
    font-family: 'Open Sans', sans-serif;
 }
 #topo, #menu,.destaques, section{
-   width: 900px;
+   width: 100%;
    margin:0 auto;
 }
 #topo h1{
@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6{
    display:inline;
 }
 .destaques li{
-   width: 50%;
+   width: 100%;
    float: left;
    text-align: center;
    list-style: none;
@@ -103,3 +103,7 @@ button{
 #rodape li {display: inline;
 }
 
+/*RESOLUÇÃO RUIM*/
+@media (min-width: ){
+   
+}
